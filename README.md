@@ -1,12 +1,39 @@
-# React + Vite
+# Slack Mockup Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Slack landing page mockup built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a frontend implementation of a Slack landing page mockup. It features:
 
-## Expanding the ESLint configuration
+- Responsive design that works on mobile and desktop
+- Interactive UI elements (banners, popups, navigation)
+- SVG logos for Google and Target only (other logos use placeholder elements)
+- Modern styling with Tailwind CSS
+- Developed using Windsurf, the world's first agentic IDE
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+The project is deployed at: [slack-mockup-image.netlify.app](https://slack-mockup-image.netlify.app)
+
+## Logo Implementation
+
+As specified:
+- Only Google and Target logos are kept as SVG files
+- Google logo appears in the sign-up button
+- Target logo appears in the logos section
+- All other logos are replaced with placeholder elements
+
+## Development
+
+This project uses:
+- React for UI components
+- Vite as the build tool
+- Tailwind CSS for styling
+
+### Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Build for production: `npm run build`
