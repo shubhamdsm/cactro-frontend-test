@@ -135,7 +135,7 @@ export default function App() {
             <div className="h-8 w-16 bg-gray-200 rounded"></div>
             <div className="h-8 w-20 bg-gray-200 rounded"></div>
             <div className="h-8 w-12 bg-gray-200 rounded"></div>
-            <img src="/target-logo.svg" alt="Target" className="h-8" />
+            <div className="h-8 w-12 bg-gray-200 rounded"></div>
             <div className="h-8 w-16 bg-gray-200 rounded"></div>
           </div>
         </div>
